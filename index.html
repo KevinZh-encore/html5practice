@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <table style="margin:9% 0 0 35%">
+            <tr>
+                <td colspan="2" align="center">
+                 <strong>表单练习&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</strong>
+                </td>  
+            </tr>  
+            <!-- 第一行：昵称 -->
+            <tr>
+                <td align="right"><br/>昵称：</td>
+                <td><br/><input type="text" value="请输入昵称">
+                </td>
+            </tr>
+            <!-- 第二行：性别 -->
+            <tr>
+                <td align="right">性别：</td>
+                <td><label><input type="radio" value="gender" name="sex">男
+                    <img src="images/male.jpg" width="12" title="male">
+                    </label>
+                    <label><input type="radio" value="gender" name="sex">女
+                    <img src="images/female.jpg" width="11" title="female"> 
+                    </label>
+                </td>
+            </tr>
+            <!-- 第三行：出生日期 -->
+                <td valign="top" align="right">生日：</td>
+                <td>
+                    
+                    <select>
+                        <option>-请选择年份-</option>
+                        <option>2000</option>
+                        <option>2001</option>
+                        <option>2002</option>
+                        <option>2003</option>
+                        <option>2004</option>
+                        <option>2005</option>
+                        <option>2006</option>
+                        <option>2007</option>
+                        
+                    </select>
+                    <select>
+                        <option>-请选择月份-</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                    </select>
+                    <select>
+                        <option>-请选择日期-</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                        <option>13</option>
+                        <option>14</option>
+                    </select>
+                    <br/>
+                    <div style="font-size: 1px">*仅用作生日祝福</div>
+                </td>
+                <!-- 第四行：密码 -->
+                <tr>
+                    <td align="right">
+                        密码：
+                    </td>
+                    <td>
+                        <input type="password">
+                    </td>
+                </tr>
+                <!-- 第五行：确认密码 -->
+                <tr>
+                    <td align="right">
+                        确认密码：
+                    </td>
+                    <td>
+                        <input type="password">
+                    </td>
+                </tr>
+                <!-- 第六行：手机号码 -->
+                <tr>
+                    <td align="right">手机号码：</td>
+                    <td><input type="text" value="请输入电话号码"> &nbsp <input type="button" value="获取验证码"></td>
+                </tr>
+                <!-- 输入验证码 -->
+                <tr>
+                
+                    <td align="right">
+                        输入验证码：
+                    </td>
+                    <td>
+                        <input type="text" value="请输入验证码">
+                    </td>
+                </tr>
+               <!-- 上传头像 -->
+                <tr>
+                    <td align="right" valign="top"><br/>上传头像：</td>
+                    <td>
+                        <br/><input type="file" value="image"><br/><div style="font-size: 1px">*仅支持.jpg .png格式</div>
+                    </td>
+                </tr>
+
+               <!-- 上传 -->
+                <tr>
+                    <td></td>
+                    <td><br/><input type="submit" value="确认提交">
+                </tr>
+            
+        </table>
+         
+    </form>
+
+</body>
+</html>
